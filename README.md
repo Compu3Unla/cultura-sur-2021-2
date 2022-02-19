@@ -1,5 +1,5 @@
 # Grupo Cultura Sur 2021 2do cuatrimestre
-Equipo con temática "cultural"
+Equipo con temática "cultural" que desarrolló un catálogo de distintos centros culturales del conurbano sur del Gran Buenos Aires para dar a conocer los eventos que desarrollan y que tengan relevancia en los vecinos para que se cree consciencia de que hay eventos cerca y no hace falta viajar horas hasta CABA.
 ## Integrantes
 * Carreira, Tamara
 * Amestoy, Candela

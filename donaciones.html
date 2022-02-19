@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Donaciones - Cultura Sur</title>
+<link href="estilos.css" rel="stylesheet" type="text/css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="css/hover.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+function MM_goToURL() { //v3.0
+  var i, args=MM_goToURL.arguments; document.MM_returnValue = false;
+  for (i=0; i<(args.length-1); i+=2) eval(args[i]+".location='"+args[i+1]+"'");
+}
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);}
+</script>
+</head>
+
+<body>
+	<header>
+		<a href="index.html" target="_self"> <img src="img/cultura _sur _horizontal.png" width= "auto" height= "75px" alt= "logoculturasur" class="hvr-bounce-in"></a>
+		<nav>
+			<ul>
+				<li><a  href="municipios.html" target="_self" class="hvr-grow-shadow">Municipios</a></li>
+				<li><a  href="link" target="_self" class="hvr-grow-shadow">Agenda</a></li>
+				<li><a class="boton-seleccionado" href="link" target="_blank">Donaciones</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main id="main-donaciones">
+		<img src="img/olla2.png" width="auto" height="480px" alt="img-donaciones">
+		<section id="donaciones">
+			<h1> Donaciones</h1>
+			<p id="texto-donaciones"> Un pequeño acto de generosidad  puede ayudar a que los centros culturales mantengan sus puertas abiertas y ofrezcan actividades y valores  a toda la comunidad. De esta manera contribuyen  a la expansión y visibilización de la cultura en zona sur.
+				<br>
+				<br>
+			Podés donar a tu centro cultural favorito utilizando Mercado Pago, crédito o débito.
+				<br>
+				<br>
+			¡Gracias por tu contribución!</p>
+			<section id="formulario">
+				<form method="post" action="" target="_blank" enctype="text/plain">
+					<div class="formulario-izq">
+						
+						<select class="donaciones-elige" name="municipios" required>
+							<option>* Elige un municipio</option>
+							<option>Almirante Brown</option>
+							<option>Avellaneda</option>
+							<option>Berazategui</option>
+							<option>Esteban Echeverría</option>
+							<option>Ezeiza</option>
+							<option>Florencio Varela</option>
+							<option>Lanús</option>
+							<option>Lomas de Zamora</option>
+							<option>Quilmes</option>
+						</select>
+						<br>
+						
+						<select class="donaciones-elige" name="centros" required>
+							<option>* Elige un centro cultural</option>
+							<option>Casa Borges</option>
+							<option>Centro Cultural Adrogué</option>
+							<option>Landa Sabaris</option>
+							<option>Edificio Histórico La Cucaracha</option>
+							<option>El Conventillo</option>
+							<option>Oesterheld</option>
+							<option>Casa Elefante</option>
+							<option>Casa Municipal de la Cultura</option>
+						</select>
+						<br>
+						
+						<label for="nombre"> Nombre</label>
+						<br>
+						<input class="donaciones-caja" type="nombre" name="nombre" id="nombre" placeholder="(opcional)">
+						<br>
+						
+						<label for="contacto">Contacto por mail </label>
+						<br>
+						<input class="donaciones-caja" type="email" name="contacto" id="contacto" placeholder="(opcional)">
+					</div>
+					<div class="formulario-der">
+						<label for="mensaje"> Mensaje </label>
+						<textarea name="mensaje" id="mensaje" max-length="200" placeholder="(opcional)"></textarea>
+						
+						<p>Monto a donar</p>
+							
+							<input class="radio" type="radio" name="monto" value="$50" id="50" > 
+							<label for="50" class="monto hvr-shadow"> $50 </label>
+						
+							<input class="radio" type="radio" name="monto" value="$100" id="100"> 
+							<label for="100" class="monto  hvr-shadow"> $100 </label>
+						
+							<input class="radio" type="radio" name="monto" value="$200" id="200"> 
+							<label for="200" class="monto  hvr-shadow"> $200 </label>
+							 
+							<input class="radio" type="radio" name="monto" value="$500" id="500"> 
+							<label for="500" class="monto  hvr-shadow"> $500</label>
+						
+						<input class="boton-mercado-pago hvr-grow-shadow" type="submit" formenctype="text/plain" onClick="MM_openBrWindow('https://www.mercadopago.com.ar/como-cobrar/codigo-qr?code=V1C70X&amp;utm_experiment=optimize&amp;utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=MLA_MP_G_AO_P_X_SEARCH_SELL_CPA_MP_EXACT_XPBR&amp;matt_tool=28766038&amp;matt_word=&amp;gclid=Cj0KCQjw8eOLBhC1ARIsAOzx5cG0ly5DoHcg0XmKaWR1Yq-1V247w1tTwovafWc9IEajaBZ-TCwy5XEaAsZIEALw_wcB','','')" value="Link a Mercado pago" >
+					</div>
+				</form>
+			</section>
+		</section>	
+	</main>
+	
+	<footer>
+		<div> 
+			<p>Contactanos</p>
+			<p><a href="culturasur@gmail.com" target="_blank">Mail: culturasur@gmail.com</a></p>
+			<p>Teléfono: 11 6585 2255</p>
+		</div>
+		<p id="derechos-footer">© 2021 Todos Los Derechos Reservados a Grupo 6 - UNLa Compu III</p>
+	</footer>
+</body>
+</html>

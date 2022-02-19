@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cultura Sur</title>
+<link href= "estilos.css" rel="stylesheet" type="text/css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="css/hover.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header>
+		<a href="index.html" target="_self"> <img src="img/cultura _sur _horizontal.png" width= "auto" height= "75px" alt= "logoculturasur" class="hvr-bounce-in"></a>
+		<nav>
+			<ul>
+				<li><a href="municipios.html" target="_self" class="hvr-grow-shadow">Municipios</a></li>
+				<li><a href="link" target="_self" class="hvr-grow-shadow">Agenda</a></li>
+				<li><a href="donaciones.html" target="_blank" class="hvr-grow-shadow">Donaciones</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="pp-pantalla1">
+			<article>
+				<p class="info-pp">En el conurbano nuestra cultura coexiste en los centros culturales.</p> 
+				<p class="info-2">¡Nosotros te acercamos a ellos!</p>
+				<h2 class="subtitulo-pp">EL SUR TIENE</h2>
+				<img src="img/cultura.png" class="cultura" width= "auto" height= "250px" alt= "cultura">
+			</article>
+			<div class="animacion"></div>
+
+		</section>
+		<section id="boton-scroll1" class="demo">
+			<a href="#pp-pantalla2"><span></span></a>
+		</section>
+		<section id="pp-pantalla2">
+			<div class="pp-pantalla2-texto">
+				<p class="info-pp2">En el conurbano nuestra cultura coexiste en los centros culturales y nosotros nos ocupamos de acercarte a estos. ¡Entrá y entérate los encuentros e intercambios sociales que tienen para ofrecerte! </p>
+				<a href="link" target="_self" class="hvr-grow-shadow">¡Revisá nuestra agenda!</a>
+			</div>
+		</section>
+		<section id="pp-pantalla3">
+			<div id="div-contactanos">
+				<p>Nosotros nos encargamos de</p>
+			</div>
+			<div>
+				<ul class="pp3-objetivos">
+					<li>
+						<img class="tildes" src="img/tilde.png" height="40px" width="auto" alt="tilde-objetivos">
+						<p class="pp-objetivo">Atraer a los usuarios para que se animen a participar de la cultura de sus propias localidades.</p>
+					</li>
+					<li>
+						<img class="tildes" src="img/tilde.png" height="40px" width="auto" alt="tilde-objetivos">
+						<p class="pp-objetivo">Brindar una información práctica y completa sobre las actividades que tu centro cultural presente.</p>
+					</li>
+					<li>
+						<img class="tildes" src="img/tilde.png" height="40px" width="auto" alt="tilde-objetivos">
+						<p class="pp-objetivo">Unificar en una web todos los centros culturales de zona sur.</p>
+					</li>				
+				</ul>
+				<form id="pp-contactanos" method="post" action="mailto:daiana.besuchet@gmail.com" target="_blank" enctype="text/plain">
+					<input id="boton-contactanos" class="hvr-grow-shadow" type="submit" formenctype="text/plain" value="¡Contactanos para saber más!">
+				</form>
+			</div>
+			<div id="pp-formulario-div">
+				<p class="nosotros"> ¡Si te encargas o sos parte de un centro cultural en zona sur, que no está registrado y querés que tenga más visibilidad  completá el siguiente formulario y sumate!</p>	
+				<form id="pp-formulario" method="post" action="mailto:daiana.besuchet@gmail.com" subject="nuevo centro cultural" target="_blank" enctype="text/plain">
+
+						<label for="nombre">* Nombre del centro cultural</label>
+						<input class="caja-pp" type="nombre" name="nombre" id="nombre" required>
+
+						<label for="contacto-mail">* Contacto por mail </label>
+						<input class="caja-pp" type="email" name="contacto-mail" id="contacto-mail" required>
+
+						<label for="contacto-tel">* Contacto por teléfono </label>
+						<input class="caja-pp" type="tel" name="contacto-tel" id="contacto-tel" required>
+
+						<label for="direccion">* Dirección </label>
+						<input class="caja-pp" type="direccion" name="direccion" id="direccion" required>
+
+						<select name="municipios" required>
+							<option>* Elige un municipio</option>
+							<option>Almirante Brown</option>
+							<option>Avellaneda</option>
+							<option>Berazategui</option>
+							<option>Esteban Echeverría</option>
+							<option>Ezeiza</option>
+							<option>Florencio Varela</option>
+							<option>Lanús</option>
+							<option>Lomas de Zamora</option>
+							<option>Quilmes</option>
+						</select>
+						<div id="botones">
+							<input id="boton-borrar" class="hvr-grow-shadow" type="reset" value="Borrar">
+							<input id="boton-enviar" class="hvr-grow-shadow" type="submit" formenctype="text/plain" value="Enviar">
+						</div>
+			  </form>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div> 
+			<p>Contactanos</p>
+			<p><a href="culturasur@gmail.com" target="_blank">Mail: culturasur@gmail.com</a></p>
+			<p>Teléfono: 11 6585 2255</p>
+		</div>
+		<p id="derechos-footer">© 2021 Todos Los Derechos Reservados a Grupo 6 - UNLa Compu III</p>
+	</footer>
+</body>
+</html>

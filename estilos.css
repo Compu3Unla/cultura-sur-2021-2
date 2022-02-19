@@ -1,0 +1,1160 @@
+@charset "utf-8";
+/* CSS Document */
+
+* { 
+	margin: 0px;
+	padding: 0px;
+	font-family: "Roboto" 
+}	
+html {
+  scroll-behavior: smooth;
+ }
+header {
+	width: auto;
+	height: 70px;
+	background-color:#A8067B;
+	display: flex;
+	padding-left: 70px;
+}
+nav {
+	width: 100%;
+	height: 70px;
+	display: flex;
+	padding-left:20px;
+}
+nav ul { 
+	list-style: none;
+	width: 60%;
+	display: flex;
+	justify-content:flex-start;
+	align-items:center;
+	padding-left: 0px;
+	padding-top: 18px;
+	padding-right: 380px;
+	
+}
+nav ul li {
+	padding-left: 10px;
+}
+nav ul li a {
+	text-decoration: none; 
+	color:white;
+	font-size: 0.9em;
+	padding:5px 20px;
+	border-radius: 6px;
+}
+nav ul li a:hover { 
+	text-decoration:none; 
+	color:#A8067B; 
+	background-color:white;
+}
+footer{
+	background-color: black;
+	height: 90px;
+	padding-left: 64px;
+	padding-top: 10px;
+	display: flex;
+	align-items: center;
+}
+footer a{
+	font-size: 1em;
+	color: white;
+	text-decoration: none;
+}
+footer p{
+	font-size: 0.7em;
+	color: white;
+	text-decoration: none;
+	padding-bottom: 5px;
+}
+.boton-seleccionado{
+	background-color:white;
+	color:#A8067B;
+	padding:6px 20px;
+}
+#derechos-footer{
+	padding-left: 350px;
+}
+footer div{
+	padding-left:20px;
+}
+h1{
+	font-size: 2em;
+	font-weight: 500;
+	padding-bottom: 30px
+}
+
+/*empieza pag princ*/
+
+#pp-pantalla1{
+	background-color:#A8067B;
+	height: 520px;
+	display: flex;
+	align-items: flex-end;
+	padding-bottom: 35px;
+	padding-top:40px;
+	padding-left:10px;
+}
+	
+.animacion{
+	width: 620px;
+	height: 620px;
+	background-image: url("img/guitarra.png");
+	background-repeat: no-repeat;
+	background-size: 100% ;
+	animation-name:animacion;
+	animation-duration: 6s;
+	animation-direction:alternate;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	animation-play-state: running;
+	background-position: 90% 40%;
+}
+@keyframes animacion {
+		0%{
+			background-image: url("img/guitarra.png");
+		}
+		
+		35%{
+			background-image: url("img/bailando 1.png");
+		}
+		
+		75%{
+			background-image: url("img/pintando1.png");
+		}
+		
+		100%{
+			background-image: url("img/nene-actuando.png");
+		}
+
+}
+
+article{
+	width: 50%;
+}
+.subtitulo-pp{
+	color: #fff;
+	font-size: 3em;
+	font-weight: 600;
+	line-height: 0em;
+	padding-left: 70px;
+}
+.info-pp{
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 500;
+	width: 50%;
+	padding-bottom: 20px;
+	line-height: 1.8em;
+	padding-left: 70px;
+}
+.info-2{
+	color: #fff;
+	font-size: 1.4em;
+	font-weight:500;
+	width: 50%;
+	padding-bottom: 80px;
+	padding-left: 70px;
+}
+.cultura {
+	padding-left: 30px;
+}
+#boton-scroll1{
+	background-color: black;
+}
+#pp-pantalla2{
+	background-color:black;
+	height: 840px;
+	background-image: url("img/bailando-fondo.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	display:flex;
+	justify-content: flex-end;
+}
+.info-pp2{
+	color: #fff;
+	font-size: 1.5em;
+	font-weight: 400;
+	width: 60%;
+	margin-left: 190px;
+	padding:10px;
+	background-color: rgba(0,0,0,0.4);
+	margin-top:100px;
+	margin-bottom:50px;
+}
+.pp-pantalla2-texto{
+	width: 50%;
+	
+}
+.pp-pantalla2-texto a{
+	text-decoration: none;
+	color:white;
+	background-color: black;
+	font-weight: 200;
+	padding:12px 40px;
+	border-radius: 6px;
+	border:1px solid white;
+	margin-left:280px;
+}
+.pp-pantalla2-texto a:hover{
+	background-color: white;
+	color:black;
+	font-weight:400;
+}
+#pp-pantalla3{
+	background-color:#A8067B;
+	display: flex;
+	padding: 80px 0px;
+	flex-direction: column;
+	align-items: center;
+}
+#pp-formulario{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width:60%;
+	margin-left: 30%;
+}
+#pp-pantalla3 label{
+	color: white;
+	font-size: 1em;
+	
+}
+.caja-pp{
+	width:67%;
+	margin-bottom: 30px;
+	margin-top:10px;
+	padding:5px;
+	background-color: white;
+	border-color: #A8067B;
+	border-width: medium;
+	border-radius:6px;
+}
+#pp-pantalla3 select{
+	background-color: white;
+	border-color: #A8067B;
+	border-width: medium;
+	margin-bottom: 20px;
+	width:69%;
+	padding:5px;
+	border-radius:6px;
+}
+#boton-enviar{
+	background-color: white;
+	width:20%;
+	height:30px;
+	border-width: inherit;
+	margin-top:10px;
+	color:#A8067B;
+	border-radius: 6px;
+}
+#boton-borrar{
+	background-color: #A8067B;
+	width:20%;
+	height:30px;
+	border-width: inherit;
+	margin-top:10px;
+	margin-right:15px;
+	color:white;
+	border-radius: 6px;
+	border:solid white 1.5px;
+}
+#boton-contactanos{
+	background-color: white;
+	width:40%;
+	height:50px;
+	border-width: inherit;
+	color:#A8067B;
+	border-radius: 6px;
+	font-size: 1em;
+	padding:12px 40px;
+}
+#pp-formulario-div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#div-contactanos{
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#div-contactanos p {
+	color:#fff;
+	font-size: 2em;
+	font-weight:700;
+	margin-bottom:50px;;
+}
+.nosotros {
+	color:#fff;
+	font-size: 1.6em;
+	font-weight:400;
+	margin-top: 100px;
+	margin-bottom:60px;
+	margin-left: 380px;
+	margin-right: 250px;
+	width: 50%;
+	text-align: center;
+}
+.pp3-objetivos{
+	list-style: none;
+	
+}
+.pp3-objetivos li{
+	color: white;
+	padding-bottom: 30px;
+	font-weight: 300;
+	font-size: 0.8em;
+	display: flex;
+	height: 50px;
+}
+.pp-objetivo{
+	padding-top:5px;
+	font-size: 1.5em;
+	color:#fff;
+	font-weight:400;
+}
+#pp-pantalla3 img{
+	padding-right: 25px;
+}
+#pp-contactanos {
+	display: flex;
+	justify-content: center;
+}
+#botones {
+	display: flex;
+}
+
+
+/* termina pag princ*/
+
+/*empieza donaciones*/
+
+#main-donaciones{
+	display: flex;
+	align-content:flex-end;
+	justify-content: space-between;
+	width: 100%;
+	padding-top: 50px;
+	background-image: url("img/fondo.jpg");
+	background-size: 60%;
+}
+#main-donaciones img{
+	padding-top:30px;
+	padding-bottom:23px;
+	width:45%;
+	
+}
+form{
+	display: flex;
+}
+#donaciones{
+	width: 50%;
+	padding-right:30px;
+}
+#texto-donaciones{
+	width: 70%;
+	font-size: 0.85em;
+	padding-bottom: 40px;
+}
+#formulario{
+	display: flex;
+	width: 100%;
+	padding-bottom:20px;
+}
+.formulario-izq{
+	width:50%;
+	padding-right: 10%;
+}
+.formulario-der{
+	width:50%;
+}
+.donaciones-elige{
+	background-color: white;
+	border-color: #A8067B;
+	border-width: medium;
+	margin-bottom: 20px;
+	width:100%;
+	padding:5px;
+	border-radius:6px;
+}
+#cc-logo{
+	
+}
+label{
+	font-size: 0.9em;
+	
+}
+.donaciones-caja{
+	width:95%;
+	margin-bottom: 20px;
+	margin-top: 5px;
+	padding:5px;
+	background-color: white;
+	border-color: #A8067B;
+	border-width: medium;
+	border-radius:6px;
+	
+}
+.boton-mercado-pago{
+	background-color: #A8067B;
+	width:100%;
+	height:30px;
+	border-width: inherit;
+	margin-top:30px;
+	color:white;
+	border-radius: 6px;
+}
+.boton-mercado-pago:hover{
+	background-color: white;
+	color: #A8067B;
+}
+textarea{
+	height:90px;
+	width:95%;
+	background-color: white;
+	border-color: #A8067B;
+	border-width: medium;
+	border-radius:6px;
+	margin-top:5px;
+	margin-bottom: 20px;
+	padding:5px;
+}
+.formulario-der p{
+	padding-bottom:20px;
+	font-size: 0.9;
+}
+.radio{
+	display: none;
+}
+.monto{
+	background-color: #A8067B;
+	color: white;
+	font-size: 0.9em;
+	padding:10px 14px;
+	border-radius: 5px;
+	margin-left:2px;
+	margin-right: 2px;
+	cursor:pointer;
+}
+.monto:hover{
+	background-color: #FCD4ED;
+	color:#A8067B;
+}
+
+.radio:checked + label{
+	background-color: #FFF;
+	color: #A8067B;
+}
+/* termina donaciones*/
+
+/*empieza centro cultural*/
+#cc-header{
+	height: 100px;
+}
+#historial{
+	color: white;
+	font-size: 0.6em;
+	padding-left: 30px;
+	padding-top: 5px;
+}
+#historial a{
+	text-decoration: none;
+	color: white;
+}
+#historial-seleccionado{
+	font-weight: 500;
+}
+.cc-items-menosjerarquia{
+	font-size: 0.8em;
+}
+h4{
+	font-size:0.8em;
+	font-weight: 600;
+}
+.cc-items-masjerarquia{
+	font-size: 1em;
+	font-weight: 600;
+}
+.info-cc{
+	display: flex;
+	padding-bottom: 20px;
+}
+.cc-items{
+	padding-left: 15px;
+	padding-top:9px;
+}
+#boton-donar{
+	text-decoration: none;
+	font-size: 0.9em;
+	color: white;
+	background-color: #A8067B;
+	padding:5px 20px;
+	border-radius: 6px;
+}
+#boton-donar:hover{
+	color: #A8067B;
+	background-color: white;
+}
+#nombre-cc-donar{
+	margin-bottom: 50px;
+}
+#h3-comunidad{
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+.p-comunidad{
+	font-size:0.9em;
+	width:85%;
+}
+#cc-logo{
+	border: #A8067B solid 3px;
+	border-radius: 200%;
+}
+.iconos-redes{
+	margin-top: 20px;
+	margin-right: 15px;
+}
+#cc-main{
+	padding-top:50px;
+	margin-bottom:70px;
+	display: flex;
+	justify-content: flex-start;
+}
+#columna-info-cc{
+	margin-left: 70px;
+	width:25%;
+}
+#h1-cc{
+	margin-top:30px;
+	padding-bottom: 10px;
+}
+#galeria{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+#galeria a{
+	margin-bottom: 40px;
+}
+#referencias-agenda{
+	margin-top:20px;
+	margin-bottom:30px;
+	display: flex;
+	align-items: center;
+}
+#referencias-agenda p{
+	font-size: 0.7em;
+	margin-left: 7px;
+	margin-right:25px;
+}
+h3{
+	color: #A8067B;
+	font-weight: 500;
+	font-size: 1.5em;
+}
+#columna-agenda-cc{
+	margin-top: 40px;
+	width: 63%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+.cc-agenda-contenedor{
+	height: 480px;
+	background-color: #A8067B;
+	border-radius: 40px;
+	padding: 20px;
+	margin: 10px 10px 10px 0px;
+	justify-content:start;
+
+  	width: 250px;
+  	object-fit: cover;
+	scroll-snap-align: center;
+}
+.titulo-agenda{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+}
+h5{
+	color: white;
+	margin-top: 15px;
+	margin-left: 10px;
+	margin-bottom:20px;
+	font-size: 1.6em;
+	font-weight: 500;
+}
+h6{
+	color: white;
+	font-size: 1.25em;
+	font-weight: 400;
+	margin-top:20px;
+	margin-bottom: 15px;
+	margin-left: 10px;
+}
+.cc-actividad-descripcion{
+	color: white;
+	font-size: 1em;
+	margin-bottom: 30px;
+	height:30px;
+	margin-left: 10px;
+}
+.cc-actividad-hora{
+	color: white;
+	font-weight: 500;
+	font-size: 0.9em;
+	margin-left: 10px;
+}
+.cc-actividad-detalle{
+	color:white;
+	font-size: 0.9em;
+	font-weight: 300;
+	margin-left: 10px;
+}
+#agenda-grid{
+	display: grid;
+	grid-template-rows: 500px;
+	grid-template-columns: 190px 190px 190px 190px;
+	grid-column-gap: 15px;
+	grid-row-gap: 30px;
+	justify-items:start;
+	margin-bottom: 80px;
+	grid-auto-flow: dense;
+	
+	display: flex;
+	justify-content: space-between;
+    
+    width: 100%;
+	height: 580px;
+	scroll-snap-type: x mandatory;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+
+#cc-main-completo{
+	background-image: url("img/fondo.jpg");
+	background-size: 60%;
+}
+
+#talleres{
+	display: flex;
+	margin-top: 30px;
+	width: 100%;
+}
+.cc-taller{
+	margin-left: 10px;
+	margin-right: 40px;
+	width: 20%;
+}
+.cc-talleres-nombre{
+	font-size: 1em;
+	font-weight: 500;
+	width: 120%;
+}
+.cc-talleres-info{
+	font-size: 0.9em;
+	width: 110%;
+}
+/* termina centro cultural*/
+
+/* empieza municipios*/
+#main-municipios{
+	background-image: url("img/fondo.jpg");
+	background-size: 60%;
+	padding: 50px 70px 30px 70px;
+	
+}
+#busqueda-caja{
+	border:solid #A8067B 1.5px;
+	border-radius: 6px;
+	padding:3px 10px;
+	margin-bottom: 40px;
+}
+#busqueda-boton{
+	padding: 3px 20px;
+	background-color: #A8067B;
+	border-radius: 6px;
+	border:none;
+	color: white;
+	margin-left: 20px;
+	margin-bottom: 40px;
+}
+.centros-culturales{
+	background-color: #A8067B;
+	height: 270px;
+	border-radius: 15px;
+	padding: 20px 20px 0px 10px;
+	
+  	width: 200px;
+  	object-fit: cover;
+	scroll-snap-align: center;
+}
+.centros-nombre{
+	color: white;
+	font-weight: 500;
+	height: 50px;
+	margin-top: 15px;
+	width: 70%;
+	margin-left: 20px;
+}
+.centros-info{
+	color: white;
+	font-size: 0.8em;
+	margin-left: 20px;
+}
+.lista-centros{
+	margin-top: 30px;
+	margin-bottom: 50px;
+	
+	display: grid;
+	grid-template-rows: 300px;
+	grid-template-columns: 200px 200px 200px 200px 200px 200px;
+	grid-column-gap: 10px;
+	grid-auto-flow: column;
+	grid-auto-columns: 200px;
+	
+	display: flex;
+	justify-content: space-between;
+    
+    width: 100%;
+	height: 340px;
+	scroll-snap-type: x mandatory;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	
+}
+.centros-culturales a{
+	text-decoration: none;
+}
+.logo-cc{
+	border-radius:10px;
+	margin-left: 16px;
+}
+
+/* termina municipios*/
+
+/*media 1200px*/
+@media screen and (max-width:1200px){
+	.info-2{
+		width: 90%;
+	}
+	.pp-pantalla2-texto{
+		margin-right: 70px;
+		width: 55%;
+	}
+	.pp-pantalla2-texto p a{
+		margin-left: 250px;
+	}
+	#pp-pantalla2{
+		height: 650px;
+	}
+	.nosotros{
+		margin-left: 235px;
+		width: 60%;
+	}
+	#derechos-footer{
+		padding-left: 200px;
+	}
+}
+
+/*media 600px*/
+@media screen and (max-width:600px){
+	.animacion{
+		width: 620px;
+		height: 620px;
+		background-image: url("img/guitarra.png");
+		background-repeat: no-repeat;
+		background-size: 50% ;
+		background-position: center;
+	}
+	header{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 110px;
+	}
+	header img{
+		height: 80px;
+		margin-top: 20px;
+	}
+	nav ul{
+		flex-direction: row;
+		width: 1%;
+	}
+	nav{
+		padding-left: 0px;
+	}
+	.info-pp{
+		width: 70%;
+		margin-top: 20px;
+		padding-left: 80px;
+		text-align: center;
+		line-height: 1.6em;
+		
+	}
+	article{
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+		
+	}
+	#pp-pantalla1{
+		flex-direction: column-reverse;
+		background-size: 55%;
+		background-position: 50% 20%;
+		height: 700px;
+	}
+	.cultura{
+		height: 150px;
+		margin-left: 60px;
+		
+	}
+	.subtitulo-pp{
+		font-size: 2.4em;
+		margin-bottom: 30px;
+		text-align: center;
+		width: 100%;
+		padding: 0px;
+		
+	}
+	.info-2{
+		text-align: center; 
+		padding-left: 20px;
+	}
+	#boton-scroll1{
+		display: none;
+	}
+	.pp-pantalla2-texto{
+		width:100%;
+	}
+	.info-pp2{
+		font-size: 1em;
+		text-align: center;
+		width: 70%;
+		margin-left: 100px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.pp-pantalla2-texto a{
+		font-size: 0.8em;
+		padding: 10px 20px;
+		margin-left: 210px;
+	}
+	#pp-pantalla2{
+		height: 320px;
+	}
+	.pp-objetivo{
+		font-size: 1.1em;
+	}
+	.pp3-objetivos li{
+		padding: 0px 50px;
+		margin-bottom: 15px;
+	}
+	#boton-contactanos{
+		font-size: 0.9em;
+		padding: 5px 20px;
+		margin-top: 20px;
+	}
+	.nosotros{
+		font-size: 1.1em;
+		margin:90px 0px 40px 60px;
+		width: 80%;
+	}
+	footer{
+		padding: 20px 0px;
+		flex-direction: column;
+	}
+	footer div{
+		width: 60%;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	#derechos-footer{
+		text-align: center;
+		padding: 0px;
+		margin: 0px;
+	}
+}
+
+/*media 360px*/
+@media screen and (max-width:360px){
+	.animacion{
+		width: 620px;
+		height: 620px;
+		background-image: url("img/guitarra.png");
+		background-repeat: no-repeat;
+		background-size: 40% ;
+		background-position: 320px 0px;
+		margin-top: 30px;
+	}
+	header{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 160px;
+	}
+	header img{
+		height: 70px;
+		margin-top: 20px;
+	}
+	nav ul{
+		flex-direction: column;
+		padding-right: 0px;
+		padding-left: 100px;
+		width: 1%;
+	}
+	
+	nav{
+		padding-left: 0px;
+	}
+	.info-pp{
+		width: 70%;
+		margin-top: 0px;
+		height: 130px;
+		padding-left: 45px;
+		text-align: center;
+		line-height: 1.6em;
+		
+	}
+	article{
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+		
+	}
+	#pp-pantalla1{
+		flex-direction: column-reverse;
+		background-size: 55%;
+		background-position: 50% 20%;
+		height: 700px;
+	}
+	.cultura{
+		height: 100px;
+		margin-left: 10px;
+	}
+	.subtitulo-pp{
+		font-size: 1.8em;
+		margin-bottom: 20px;
+		text-align: center;
+		width: 100%;
+		padding: 0px;
+		
+	}
+	.info-2{
+		text-align: center; 
+		padding-left: 20px;
+		font-size: 1.2em;
+	}
+	#boton-scroll1{
+		display: none;
+	}
+	.pp-pantalla2-texto{
+		width:100%;
+	}
+	.info-pp2{
+		font-size: 0.8em;
+		text-align: center;
+		width: 70%;
+		margin-left: 80px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.pp-pantalla2-texto a{
+		font-size: 0.7em;
+		width: 43%;
+		padding: 10px 10px;
+		margin-left: 110px;
+	}
+	#pp-pantalla2{
+		height: 250px;
+		background-repeat: repeat;
+	}
+	.pp-objetivo{
+		font-size: 1em;
+	}
+	#div-contactanos p{
+		font-size: 1.4em;
+	}
+	.pp3-objetivos li{
+		padding: 0px 50px;
+		margin-bottom: 30px;
+	}
+	#boton-contactanos{
+		font-size: 0.8em;
+		padding: 5px 20px;
+		margin-top: 20px;
+		margin-left: 0px;
+		width: 60%;
+	}
+	.nosotros{
+		font-size: 1em;
+		margin:60px 0px 40px 30px;
+		width: 80%;
+	}
+	#pp-formulario{
+		margin-left: 80px;
+		width: 75%;
+	}
+	#pp-pantalla3 label{
+		font-size: 0.9em;
+	}
+	footer{
+		padding: 20px 0px;
+		flex-direction: column;
+		height: 110px;
+	}
+	footer div{
+		width: 60%;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	#derechos-footer{
+		text-align: center;
+		padding: 0px;
+		margin: 0px;
+		width: 70%;
+	}
+}
+
+
+
+
+
+/* css de arrow*/
+#boton-scroll1 {
+    position: relative;
+    width: 100%;
+    height:50px;
+	padding-top:20px;
+}
+#boton-scroll2 {
+    position: relative;
+    width: 100%;
+    height: 70px;
+	padding-top:50px;
+}
+
+#boton-scroll1 h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: #000;
+  font : normal 300 20px/1 'Josefin Sans', sans-serif;
+  text-align: center;
+  white-space: nowrap;
+}
+
+#thanks {
+  background-color: #fff;
+}
+#thanks::after {
+  content: none;
+}
+#thanks div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#thanks h2 {
+  margin-bottom: 60px;
+  color: #333;
+  font : normal 300 64px/1 'Josefin Sans', sans-serif;
+  text-align: center;
+  white-space: nowrap;
+}
+#thanks p {
+  color: #333;
+  font : normal 400 20px/1 'Josefin Sans', sans-serif;
+}
+#thanks p a {
+  color: #fff;
+  text-decoration: none;
+  transition: color .3s;
+}
+#thanks p a:hover {
+  color: #888;
+}
+.demo a {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: #fff;
+  font : normal 400 20px/1 'Josefin Sans', sans-serif;
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: opacity .3s;
+}
+.demo a:hover {
+  opacity: .5;
+}
+#boton-scroll1 a {
+	padding-bottom: 20px;
+}
+#boton-scroll2 a {
+  padding-top: 60px;
+}
+#boton-scroll1 a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb04 2s infinite;
+  animation: sdb04 2s infinite;
+  box-sizing: border-box;
+}
+#boton-scroll2 a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb04 2s infinite;
+  animation: sdb04 2s infinite;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb04 {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+  }
+  20% {
+    -webkit-transform: rotate(-45deg) translate(-10px, 10px);
+  }
+  40% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+  }
+}
+@keyframes sdb04 {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+  }
+  20% {
+    transform: rotate(-45deg) translate(-10px, 10px);
+  }
+  40% {
+    transform: rotate(-45deg) translate(0, 0);
+  }
+}
+/* termina css de arrow*/
